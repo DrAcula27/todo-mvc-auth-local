@@ -1,44 +1,125 @@
-# Introduction
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
-A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
+<a name="readme-top"></a>
 
----
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="LINK">
+    <img src="./public/img/logo.png" alt="Logo" width="80" />
+  </a>
 
-> Be sure to add that lovely star 😀 and fork it for your own copy
+  <h3 align="center">ToDo List</h3>
 
----
+  <p align="center">
+    Website to keep track of all your todos.
+    <br />
+    <a href="LINK">View Site</a>
+  </p>
 
-# Objectives
+  <p>
+    <!-- TODO: update when hosted -->
+    <sup>Deployment status:</sup>
+    <a href="https://app.netlify.com/sites/tahuyarivervalleywaterdistrict/deploys?branch=main">
+      <img src="https://api.netlify.com/api/v1/badges/e29f3a1f-bdbd-466e-93c1-9f84e3d7f4fc/deploy-status" alt="Deployment Status" />
+    </a>
+  </p>
+</div>
 
-- It's a beginner level app created to understand how MVC concept and logins are added
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#optimizations">Optimizations</a></li>
+    <li><a href="#lessons-learned">Lessons Learned</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
----
+<!-- ABOUT THE PROJECT -->
 
-# Who is this for? 
+## About The Project
 
-- It's for beginners & intermediates with little more experience, to help understand the various aspects of building a node app with some complex features
+<p align="center">
+    <a href="LINK">
+      <img src='./public/img/screenshot.png' alt='ToDo Screen Shot' />
+    </a>
+</p>
 
----
+Created using the MVC architecture, this todo list application allows users to sign up, log in, and create, read, update, and delete their very own todos!
 
-# Packages/Dependencies used 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mongodb, mongoose, morgan, nodemon, passport, passport-local, validator
+### Built With
 
----
+- ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
+- ![EJS](https://img.shields.io/badge/EJS-%23323330.svg?style=flat&logo=ejs&logoColor=23B4CA65)
+- ![CSS3](https://img.shields.io/badge/CSS-%23663399.svg?style=flat&logo=css&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E)
+- ![MongoDB](https://img.shields.io/badge/MongoDB-%2347A248.svg?style=flat&logo=mongodb&logoColor=white)
+- ![Express](https://img.shields.io/badge/Express-%23000000.svg?style=flat&logo=express&logoColor=white)
+- ![Node](https://img.shields.io/badge/Node-%235FA04E.svg?style=flat&logo=nodedotjs&logoColor=white)
+- ![Passport](https://img.shields.io/badge/passport-%2334E27A.svg?style=flat&logo=passport&logoColor=white)
 
-# Install all the dependencies or node packages used for development via Terminal
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-`npm install` 
+<!-- USAGE -->
 
----
+## Usage
 
-# Things to add
+Getting started is as easy as 1-2-3:
 
-- Create a `.env` file and add the following as `key: value` 
-  - PORT: 2121 (can be any port example: 3000) 
-  - DB_STRING: `your database URI` 
- ---
- 
- Have fun testing and improving it! 😎
+1. Visit the [homepage](LINK)
+1. Click `signup`
+   - Create your account by signing up using your email and creating a password
+1. Start adding things to do!
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- OPTIMIZATIONS -->
+
+## Optimizations
+
+This project can be improved by:
+
+- [ ] Adding strategies to allow users to sign up and sign in using a provider
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LESSONS LEARNED -->
+
+## Lessons Learned
+
+- **MVC Architecture.** 
+- **CRUD.** 
+- **Authentication.** 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+Danielle Andrews - [@DrAcula_codes](https://twitter.com/DrAcula_codes 'Twitter/X') - [daniellerandrews](https://www.linkedin.com/in/daniellerandrews 'LinkedIn') - danielle.andrews.dev@icloud.com
+
+Project Link: [LINK](LINK)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgments
+
+A special thanks to these resources used in the project!
+
+- 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

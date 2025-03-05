@@ -18,34 +18,32 @@
           <% } %>
         </h2>
 
-        <div class="todosContainer">
-          <div class="paperContainer">
-            <ul class="paperContent">
-              <% todos.forEach( el => { %>
-                <li class='todoItem' data-id='<%=el._id%>'>
-                  <span class='<%= el.completed === true ? 'completed' : 'not'%>'><%= el.todo %></span>
-                  <span class='del fa fa-trash'></span>
-                </li>
-              <% }) %>
-            </ul>
-          </div>
+        <div class="paperContainer">
+          <ul class="paperContent">
+            <% todos.forEach( el => { %>
+              <li class='todoItem' data-id='<%=el._id%>'>
+                <span class='<%= el.completed === true ? 'completed' : 'not'%>'><%= el.todo %></span>
+                <span class='del fa fa-trash'></span>
+              </li>
+            <% }) %>
+          </ul>
+        </div>
 
-          <div class="form-container">
-            <form action="/todos/createTodo" method='POST' class="form">
-              <div class="input-group">
-                <label for="todoItem">What do you need to do?</label>
-                <input
-                  type="text"
-                  id="todoItem"
-                  name="todoItem"
-                  placeholder="Enter a todo"
-                  required
-                />
-              </div>
+        <div class="form-container">
+          <form action="/todos/createTodo" method='POST' class="form">
+            <div class="input-group">
+              <label for="todoItem">What do you need to do?</label>
+              <input
+                type="text"
+                id="todoItem"
+                name="todoItem"
+                placeholder="Enter a todo"
+                required
+              />
+            </div>
 
-              <button type="submit" class="btn">Add Todo</button>
-            </form>
-          </div>
+            <button type="submit" class="btn">Add Todo</button>
+          </form>
         </div>
       </div>
 

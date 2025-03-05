@@ -36,6 +36,11 @@ app.use(passport.session());
 
 app.use(flash());
 
+app.use((req, res, next) => {
+  res.locals.user = req.user || null; // Pass user to all templates
+  next();
+});
+
 app.use('/', mainRoutes);
 app.use('/todos', todoRoutes);
 

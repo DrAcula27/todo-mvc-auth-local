@@ -91,6 +91,11 @@ Getting started is as easy as 1-2-3:
 This project can be improved by:
 
 - [ ] Adding strategies to allow users to sign up and sign in using a provider
+- [ ] Hiding the todos paper container when the user has finished all todos
+- [ ] Showing the active page on the navbar
+- [ ] Ensuring that the Signup button always goes to the signup page even if a user is logged in
+- [ ] Streamlining CSS
+- [ ] Moving the passing of the user from `server.js` to its own middleware
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,9 +103,9 @@ This project can be improved by:
 
 ## Lessons Learned
 
-- **MVC Architecture.** 
-- **CRUD.** 
-- **Authentication.** 
+- **MVC Architecture.**
+- **CRUD.**
+- **Authentication.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,6 +125,6 @@ Project Link: [LINK](LINK)
 
 A special thanks to these resources used in the project!
 
-- 
+-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

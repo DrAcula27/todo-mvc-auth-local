@@ -9,6 +9,7 @@ const logger = require('morgan');
 const connectDB = require('./config/database');
 const mainRoutes = require('./routes/main');
 const todoRoutes = require('./routes/todos');
+const { passUser } = require('./middleware/user');
 
 require('dotenv').config({ path: './config/.env' });
 require('./config/passport')(passport);
@@ -36,10 +37,7 @@ app.use(passport.session());
 
 app.use(flash());
 
-app.use((req, res, next) => {
-  res.locals.user = req.user || null; // Pass user to all templates
-  next();
-});
+app.use(passUser);
 
 app.use('/', mainRoutes);
 app.use('/todos', todoRoutes);

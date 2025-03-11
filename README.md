@@ -5,7 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="LINK">
+  <a href="LINK"><!-- TODO: add when hosted -->
     <img src="./public/img/boatLogLogo.png" alt="Logo" width="80" />
   </a>
 
@@ -14,16 +14,17 @@
   <p align="center">
     Website to keep track of all your todos.
     <br />
-    <a href="LINK">View Site</a>
+    <!-- TODO: add when hosted -->
+    <!-- <a href="LINK">View Site</a> -->
   </p>
 
-  <p>
-    <!-- TODO: update when hosted -->
+  <!-- TODO: add when hosted -->
+  <!-- <p>
     <sup>Deployment status:</sup>
     <a href="https://app.netlify.com/sites/tahuyarivervalleywaterdistrict/deploys?branch=main">
       <img src="https://api.netlify.com/api/v1/badges/e29f3a1f-bdbd-466e-93c1-9f84e3d7f4fc/deploy-status" alt="Deployment Status" />
     </a>
-  </p>
+  </p> -->
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -49,7 +50,7 @@
 ## About The Project
 
 <p align="center">
-    <a href="LINK">
+    <a href="LINK"><!-- TODO: add when hosted -->
       <img src='./public/img/screenshot.png' alt='ToDo Screen Shot' />
     </a>
 </p>
@@ -77,7 +78,7 @@ Created using the MVC architecture, this todo list application allows users to s
 
 Getting started is as easy as 1-2-3:
 
-1. Visit the [homepage](LINK)
+1. Visit the [homepage](LINK)<!-- TODO: add when hosted -->
 1. Click `signup`
    - Create your account by signing up using your email and creating a password
 1. Start adding things to do!
@@ -91,11 +92,10 @@ Getting started is as easy as 1-2-3:
 This project can be improved by:
 
 - [ ] Adding strategies to allow users to sign up and sign in using a provider
-- [ ] Hiding the todos paper container when the user has finished all todos
+- [x] ~~Hiding the todos paper container when the user has finished all todos~~
 - [ ] Showing the active page on the navbar
-- [ ] Ensuring that the Signup button always goes to the signup page even if a user is logged in
 - [ ] Streamlining CSS
-- [ ] Moving the passing of the user from `server.js` to its own middleware
+- [x] ~~Moving the passing of the user from `server.js` to its own middleware~~
 - [ ] Fix how error messages show up for the user when incorrectly filling out forms
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -238,7 +238,8 @@ This project can be improved by:
 
 Danielle Andrews - [@DrAcula_codes](https://twitter.com/DrAcula_codes 'Twitter/X') - [daniellerandrews](https://www.linkedin.com/in/daniellerandrews 'LinkedIn') - danielle.andrews.dev@icloud.com
 
-Project Link: [LINK](LINK)
+<!-- TODO: add when hosted -->
+<!-- Project Link: [LINK](LINK) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

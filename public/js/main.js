@@ -95,3 +95,21 @@ function toggleTheme() {
     localStorage.setItem('theme', 'dark');
   }
 }
+
+// toggle show todos container
+document.addEventListener('DOMContentLoaded', () => {
+  const todoPaper = document.getElementById('todoPaper');
+  const todoContent = document.getElementById('todoContent');
+  const todoItems = document.querySelectorAll('.todoItem');
+  const todoCompletes = document.querySelectorAll('.todoComplete');
+
+  if (todoPaper) {
+    if (todoItems.length === 0 && todoCompletes.length === 0) {
+      todoPaper.classList.add('hidden');
+      todoContent.classList.add('hidden');
+    } else {
+      todoPaper.classList.remove('hidden');
+      todoContent.classList.remove('hidden');
+    }
+  }
+});

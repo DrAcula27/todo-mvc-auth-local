@@ -24,10 +24,14 @@
   --transition: all 0.3s ease;
 }
 
+.hidden {
+  display: none !important;
+}
+
 /* overall document settings */
 body {
   background: var(--primary-light-color);
-  color: var(--secondary-light-color);
+  color: var(--secondary-dark-color);
   font-family: system-ui, -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
     'Helvetica Neue', sans-serif;
@@ -80,7 +84,7 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background: var(--secondary-light-color);
+  background: var(--completed-color);
   padding: 10px 20px;
   font-size: 18px;
 }
@@ -244,7 +248,7 @@ main {
 }
 
 .btn:hover {
-  background: var(--action-hover-color);
+  outline: var(--action-hover-color);
 }
 
 .auth-link {
@@ -272,9 +276,9 @@ main {
 /* Todos Page */
 .paperContainer {
   position: relative;
-  width: 100%;
-  max-width: 500px;
-  /* max-height: 80vh; */
+  width: 100vw;
+  max-width: 800px;
+  min-width: 350px;
   margin: 20px auto;
   background: var(--paper-background-color);
   border-radius: 10px;
@@ -314,7 +318,7 @@ main {
 }
 
 .todosLeft {
-  margin: 0 0 0 10px;
+  margin: 0 0 10px 0;
 }
 
 .todoItems {
@@ -358,9 +362,9 @@ main {
 /* footer layout */
 footer {
   grid-area: footer;
-  background-color: var(--secondary-light-color);
+  background-color: var(--completed-color);
   color: var(--secondary-dark-color);
-  box-shadow: var(--light-box-shadow);
+  /* box-shadow: var(--light-box-shadow); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -390,7 +394,6 @@ footer .fa-linkedin:hover {
 }
 
 footer .fa-heart {
-  color: var(--accent-color);
   font-size: 24px;
   transition: var(--transition);
 }
@@ -402,7 +405,7 @@ footer .fa-heart:hover {
 /** Light mode */
 .light {
   background-color: var(--primary-light-color);
-  color: var(--secondary-light-color);
+  color: var(--secondary-dark-color);
 }
 
 /** Dark theme overrides */
@@ -433,7 +436,7 @@ body.dark {
 
 .dark .form {
   background: var(--secondary-dark-color);
-  box-shadow: 0 4px 10px rgba(115, 207, 238, 0.3);
+  box-shadow: 0 4px 10px rgba(248, 248, 248, 0.1);
 }
 
 .dark .form h2 {
@@ -461,7 +464,6 @@ body.dark {
 .dark footer {
   background-color: var(--secondary-dark-color);
   color: var(--primary-light-color);
-  box-shadow: var(--accent-box-shadow);
 }
 
 .dark .fa-github,
@@ -480,11 +482,11 @@ button.dark-mode-toggle {
   border-radius: 50%;
   padding: 4px;
   cursor: pointer;
-  transition: var(--transition);
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
 }
 
 button.dark-mode-toggle:hover {
-  box-shadow: var(--action-text-glow);
+  box-shadow: 0 0 5px var(--action-color);
 }
 
 button.dark-mode-toggle:active {
